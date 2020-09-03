@@ -1,0 +1,28 @@
+2020-09-02 21:30:04,780 INFO c.u.p.PrimeiroJobSpringBatchApplication [main] Starting PrimeiroJobSpringBatchApplication on fullpower with PID 49311 (/home/fullpower/workspace/PrimeiroJobSpringBatch/target/classes started by fullpower in /home/fullpower/workspace/PrimeiroJobSpringBatch)
+2020-09-02 21:30:04,784 INFO c.u.p.PrimeiroJobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2020-09-02 21:30:05,167 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2020-09-02 21:30:05,401 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-02 21:30:05,691 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-02 21:30:05,754 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2020-09-02 21:30:05,838 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-09-02 21:30:05,949 INFO c.u.p.PrimeiroJobSpringBatchApplication [main] Started PrimeiroJobSpringBatchApplication in 1.636 seconds (JVM running for 2.398)
+2020-09-02 21:30:06,043 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=6, -spring.output.ansi.enabled=always}]
+2020-09-02 21:30:06,100 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2020-09-02 21:30:06,136 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 35ms
+2020-09-02 21:30:06,154 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=6, -spring.output.ansi.enabled=always}] and the following status: [COMPLETED] in 81ms
+2020-09-02 21:30:06,161 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-02 21:30:06,178 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-02 21:41:49,631 INFO c.u.p.PrimeiroJobSpringBatchApplication [main] Starting PrimeiroJobSpringBatchApplication on fullpower with PID 49748 (/home/fullpower/workspace/PrimeiroJobSpringBatch/target/classes started by fullpower in /home/fullpower/workspace/PrimeiroJobSpringBatch)
+2020-09-02 21:41:49,634 INFO c.u.p.PrimeiroJobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2020-09-02 21:41:50,006 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2020-09-02 21:41:50,250 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-02 21:41:50,524 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-02 21:41:50,585 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2020-09-02 21:41:50,661 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-09-02 21:41:50,745 INFO c.u.p.PrimeiroJobSpringBatchApplication [main] Started PrimeiroJobSpringBatchApplication in 1.576 seconds (JVM running for 2.329)
+2020-09-02 21:41:50,844 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=7, -spring.output.ansi.enabled=always}]
+2020-09-02 21:41:50,894 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2020-09-02 21:41:50,926 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 32ms
+2020-09-02 21:41:50,946 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=7, -spring.output.ansi.enabled=always}] and the following status: [COMPLETED] in 74ms
+2020-09-02 21:41:50,953 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-02 21:41:50,972 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
